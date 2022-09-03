@@ -1,0 +1,30 @@
+{
+  "schema": {
+    "field": {
+      "type": "object",
+      "properties": {
+        "person_name": {
+          "type": "string",
+          "title": "Person_name"
+        },
+        "animal_name": {
+          "type": "string",
+          "title": "Animal_name"
+        },
+        "vehicle_name": {
+          "type": "string",
+          "title": "vehicle_name"
+        }
+      }
+    }
+  },
+  "form": [
+    {
+      "key": "field"
+    },
+    {
+      "type": "submit",
+      "title": "Submit"
+    }
+  ]
+}
